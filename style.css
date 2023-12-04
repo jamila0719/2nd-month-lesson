@@ -15,7 +15,7 @@ li{
     margin: 0 auto;
      background-image: url(./img/body_bg_img.png);
     background-repeat: no-repeat;
-    background-color: rgb(65, 65, 91);
+    background-color: #1E2538;
 }
 /* navbar started */
 .container header .navbar {
@@ -109,7 +109,13 @@ font-size: 18px;
     margin-left: 180px;
     flex-wrap: wrap;
     display: flex;
+    gap: 22px;
 }
+/* .container header  .films .film img{
+    background: rgba(54, 87, 203, 0.65);
+    
+
+} */
 .container header  .films .film h4{
     color: #FFF;
     font-family: Qanelas;
@@ -120,4 +126,26 @@ font-size: 18px;
     color: #F2F60F;
     font-family: Qanelas;
     font-size: 15px;
+}
+.container header  .films_btn{
+       margin-top: 50px;
+       text-align: center;
+justify-content: center;
+}
+.container header  .films_btn button{
+ 
+    width: 200px;
+height: 71px;
+border-radius: 10px;
+border: 2px solid #FFF;
+background: #1E2538;
+color: #FFF;
+font-family: Qanelas;
+font-size: 18px;
+
+}
+.container header  .films_btn button:active{
+    border: 2px solid #FFF;
+    color: #1E2538;  
+    background: #FFF; 
 }
