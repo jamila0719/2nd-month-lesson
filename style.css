@@ -29,9 +29,9 @@ li{
 .container header .navbar .logo{
     display: flex;
 }
-.container header .navbar .logo img{
-    /* margin-top: -70px; */
-}
+/* .container header .navbar .logo img{
+    margin-top: -70px;
+} */
 .container header .navbar .logo p{
     margin-top: 10px;
     color: #FFF;
@@ -74,6 +74,8 @@ font-size: 25px;
 /* navbar ended */
 
 /* first section started */
+
+
 /* menu started */
 .container header .menu{
     display: flex;
@@ -206,4 +208,117 @@ font-size: 45px;
 font-family: Qanelas;
 font-size: 15px;
 text-align: center;
+}
+.container .newTreller .lines{
+    margin-top: 60px;
+    justify-content: center;
+}
+.container .newTreller .bigLine{
+    width: 1430px;
+height: 7px;
+border-radius: 10px;
+background: #1B2133;
+}
+.container .newTreller .bigLine .smalLine{
+    position: absolute;
+    width: 422px;
+height: 7px;
+border-radius: 10px;
+background: #3657CB;
+z-index: 1;
+margin-left: 77px;
+}
+.container .newTreller .choose_the_video{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+}
+.container .newTreller .choose_the_video .videos .vide {
+    background-image: url(./img/mulan.png);
+    width: 344.371px;
+    height: 247.016px;
+    border-radius: 10px;
+}
+.container .newTreller .choose_the_video .videos .vide:hover{
+    position: relative;
+    background: rgba(54, 87, 203, 0.65);
+    z-index: 1;
+
+}
+.container .newTreller .choose_the_video .videos .vide1{
+    background-image: url(./img/forsaj2.png);
+    width: 344.371px;
+    height: 247.016px;
+    border-radius: 10px;
+}
+.container .newTreller .choose_the_video .videos .vide1:hover{
+    position: relative;
+    background: rgba(54, 87, 203, 0.65);
+    z-index: 1;
+
+}
+.container .newTreller .choose_the_video .videos .vide2{
+    background-image: url(./img/women.png);
+    width: 344.371px;
+    height: 247.016px;
+    border-radius: 10px;
+}
+.container .newTreller .choose_the_video .videos .vide2:hover{
+    position: relative;
+    background: rgba(54, 87, 203, 0.65);
+    z-index: 1;
+
+}
+.container .newTreller .choose_the_video .videos .vide3{
+    background-image: url(./img/women2.png);
+    width: 344.371px;
+    height: 247.016px;
+    border-radius: 10px;
+}
+.container .newTreller .choose_the_video .videos .vide3:hover{
+    position: relative;
+    background: rgba(54, 87, 203, 0.65);
+    z-index: 1;
+
+}
+
+.container .newTreller .choose_the_video .videos p{
+    color: #FFF;
+font-family: Qanelas;
+font-size: 20px;
+padding-top: 8px;
+}
+
+
+/* secon setion ended */
+
+/* third section started */
+.container .popular_films {
+    margin-top: 78px;
+    margin-left: 195px;
+}
+.container .popular_films h2{
+    color: #FFF;
+font-family: Qanelas;
+font-size: 65px;
+}
+.container .popular_films img{
+    margin-left: 730px;
+    padding-top: -50px;
+}
+.container .popular_films ul{
+    display: flex;
+    gap: 20px;
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+.container .popular_films ul li a{
+    color: rgba(255, 255, 255, 0.35);
+font-family: Qanelas;
+font-size: 18px;
+
+}
+.container .popular_films ul li a:hover{
+    color: #fff;
 }
