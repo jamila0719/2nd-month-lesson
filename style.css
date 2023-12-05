@@ -157,4 +157,53 @@ font-size: 18px;
     color: #1E2538;  
     background: #FFF; 
 }
-
+/* first section ended */
+/* header ended */
+.container .newTreller{
+    margin-top: 55px;
+    margin-left: 180px;
+}
+.container .newTreller .treller_text{
+    display: flex;
+    color: #FFF;
+}
+.container .newTreller .treller_text h2{
+font-family: Qanelas;
+font-size: 65px;
+}
+.container .newTreller .treller_text p{
+    margin-top: 55px;
+font-family: Qanelas;
+font-size: 22px;
+padding-left: 734px;
+}
+.container .newTreller .video{
+    /* justify-content: center; */
+    margin-top: 60px;
+    display:flex ;
+}
+.container .newTreller .video_text {
+    margin-top: 20px;
+    
+}
+.container .newTreller .video_text h2{
+   color: #FFF;
+font-family: Qanelas;
+font-size: 45px;
+}
+.container .newTreller .video_text .icone{
+    padding-left: 220px;
+    
+}
+.container .newTreller .video_text .likes{
+    display: flex;
+    gap: 10px;
+    padding-left: 1300px;
+    margin-top: -40px;
+}
+.container .newTreller .video_text .likes .like p{
+    color: #FFF;
+font-family: Qanelas;
+font-size: 15px;
+text-align: center;
+}
