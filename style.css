@@ -239,11 +239,13 @@ margin-left: 77px;
     width: 344.371px;
     height: 247.016px;
     border-radius: 10px;
+
 }
 .container .newTreller .choose_the_video .videos .vide:hover{
     position: relative;
     background: rgba(54, 87, 203, 0.65);
     z-index: 1;
+    
 
 }
 .container .newTreller .choose_the_video .videos .vide1{
@@ -321,4 +323,24 @@ font-size: 18px;
 }
 .container .popular_films ul li a:hover{
     color: #fff;
+}
+.container .popular_film{
+    margin-top: 55px;
+    margin-left: 180px;
+    display: flex;
+    gap: 25px;
+}
+.container .popular_film .popular_film_ img{
+    border-radius: 10px;
+}
+.container .popular_film .popular_film_ p{
+    color: #FFF;
+    padding-top: 12px;
+font-family: Qanelas;
+font-size: 18px;
+}
+.container .popular_film .popular_film_ .yellow{
+    color: #F2F60F;
+font-family: Qanelas;
+font-size: 15px;
 }
